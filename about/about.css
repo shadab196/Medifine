@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+body{
+    background-color: #f0f4f5;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.navContainer{
+    width: 90%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+.navContainer ul{
+    display: flex;
+    list-style: none;
+    column-gap: 50px;
+    margin-right: 70px;
+    margin-top: 15px;
+    
+}
+.navContainer ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.navContainer img{
+    margin-top: 20px;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mid h1{
+    margin-top: 125px;
+    color:#20bc7e ;
+}
+.mid p{
+    margin-top: 25px;
+    font-size: large;
+    font-weight: 300;
+    color: black;
+    line-height: 1.2;
+}
+.mid .cardContainer{
+    display: flex;
+   column-gap: 50px;
+   margin-top: 60px;
+  
+  
+}
+
+.mid .cardContainer .card .paraOne{
+  color: #20bc7e;
+  font-size: x-large;
+  font-weight: 700;
+  margin-top: 0px;
+
+}
+.mid .cardContainer .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #f0f4f5;
+    width: 200px;
+    box-shadow: 0 0 20px black;
+    border: solid black 1px;
+        
+} 
+.mid .cardContainer .card .paraTwo{
+     font-size: large;
+     font-weight: 200;
+     margin-top: 0px;
+     
+     
+}

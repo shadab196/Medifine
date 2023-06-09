@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+body{
+    background-color: #f0f4f5;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.navContainer{
+    width: 90%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+.navContainer ul{
+    display: flex;
+    list-style: none;
+    column-gap: 50px;
+    margin-right: 70px;
+    margin-top: 15px;
+    
+}
+.navContainer ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.navContainer img{
+    margin-top: 20px;
+}
+.mid .left{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.mid .left h1{
+    font-size: 70px;
+    white-space: nowrap;
+     
+}
+.mid .left p{
+    font-size: larger;
+    margin-top: 25px;
+    color: #797f7d;
+    white-space: nowrap;
+}
+.mid .left .appointmentContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.mid .left .appointmentContainer button{
+    background-color: #20bc7e;
+    color: white;
+    padding: 15px 45px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 60px;
+    font-size: x-large;
+    font-weight: 700;
+}
+.mid{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.mid .left{
+    width: 900px;
+}
+.mid .right{
+    width: 50%;
+
+}
+.mid .right .green img{
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+   margin-top: 20px;
+}
+.mid .right .orange{
+    margin-top: -410px;
+    margin-left: 255px;
+}
+.mid .right .doctor{
+    margin-top: -450px;
+    margin-left: 240px;
+}
+.mid .left .edgeMouse .mouse{
+    margin-bottom: -60px;
+    margin-right: -20px;
+}
+.aala img{
+    margin-top: -550px;
+    margin-left: 250px;
+}

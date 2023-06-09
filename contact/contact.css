@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+body{
+    background-color: #f0f4f5;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.navContainer{
+    width: 90%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+.navContainer ul{
+    display: flex;
+    list-style: none;
+    column-gap: 50px;
+    margin-right: 70px;
+    margin-top: 15px;
+    
+}
+.navContainer ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.navContainer img{
+    margin-top: 20px;
+}
+
+
+
+/* form section starts */
+.formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 85vh;
+}
+
+form{
+    width: 350px;
+    box-shadow: 0 0 12px black;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  form h1{
+    text-align: center;
+  }
+
+  form div{
+    display: flex;
+    flex-direction: column;
+  }
+  form div label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  form div input{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  form div textarea{
+    resize: none;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  form button{
+    border: none;
+    border-radius: 10px;
+    background: #20BC7E;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+  }
